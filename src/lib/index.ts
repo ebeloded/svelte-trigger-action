@@ -50,7 +50,8 @@ export const createAnimationTriggerAction = (globalClassName?: string) => {
     }
   })
   return {
-    triggerAnimation: trigger,
-    animationAction: triggerAction,
+    triggerAnimation: (className?: string) => trigger(className),
+    animationAction: (node: HTMLElement, className?: string) =>
+      triggerAction(node, className),
   }
 }

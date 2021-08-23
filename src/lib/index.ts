@@ -36,15 +36,19 @@ export const createTriggerAction = <P = any, T = any | undefined>(
   }
 }
 
-export const createAnimationTriggerAction = () => {
-  const { trigger, triggerAction } = createTriggerAction<any, string>(
-    (node, _, className) => {
+export const createAnimationTriggerAction = (globalClassName?: string) => {
+  const { trigger, triggerAction } = createTriggerAction<
+    string | undefined,
+    string | undefined
+  >((node, actionClassName, triggerClassName) => {
+    let className = triggerClassName || actionClassName || globalClassName
+    if (className) {
       node.addEventListener('animationend', () =>
-        node.classList.remove(className)
+        node.classList.remove(className!)
       )
       node.classList.add(className)
     }
-  )
+  })
   return {
     triggerAnimation: trigger,
     animationAction: triggerAction,

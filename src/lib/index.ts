@@ -37,7 +37,7 @@ export const createTriggerAction = <P = any, T = any | undefined>(
 }
 
 export const createAnimationTriggerAction = () => {
-  const { trigger, triggerAction } = createTriggerAction<never, string>(
+  const { trigger, triggerAction } = createTriggerAction<any, string>(
     (node, _, className) => {
       node.addEventListener('animationend', () =>
         node.classList.remove(className)

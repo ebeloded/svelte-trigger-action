@@ -1,5 +1,3 @@
-import sveltePreprocess from 'svelte-preprocess'
-
-export default {
-  preprocess: sveltePreprocess(),
+module.exports = {
+  preprocess: require('svelte-preprocess')(),
 }

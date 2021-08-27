@@ -1,12 +1,12 @@
-import { defineConfig } from 'vite'
-import { svelte } from '@sveltejs/vite-plugin-svelte'
+const { defineConfig } = require('vite')
+const { svelte } = require('@sveltejs/vite-plugin-svelte')
+const path = require('path')
 
-export default defineConfig({
+module.exports = defineConfig({
   plugins: [svelte()],
   build: {
     lib: {
-      formats: ['es', 'umd', 'cjs'],
-      entry: new URL('src/lib/index.ts', import.meta.url).pathname,
+      entry: path.resolve(__dirname, 'src/lib/index.ts'),
       name: 'svelte-trigger-action',
     },
   },

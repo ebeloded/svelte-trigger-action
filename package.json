@@ -20,8 +20,8 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/svelte-trigger-action.es.js",
-      "require": "./dist/svelte-trigger-action.cjs.js"
+      "default": "./dist/svelte-trigger-action.es.js",
+      "node": "./dist/svelte-trigger-action.cjs.js"
     },
     "./package.json": "./package.json"
   },

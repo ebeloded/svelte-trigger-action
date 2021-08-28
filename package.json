@@ -9,8 +9,9 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/svelte-trigger-action.umd.js",
+  "main": "./dist/svelte-trigger-action.cjs.js",
   "module": "./dist/svelte-trigger-action.es.js",
+  "browser": "./dist/svelte-trigger-action.es.js",
   "types": "./dist/types/index.d.ts",
   "scripts": {
     "dev": "vite",
@@ -20,10 +21,11 @@
   "exports": {
     ".": {
       "import": "./dist/svelte-trigger-action.es.js",
-      "require": "./dist/svelte-trigger-action.umd.js"
+      "require": "./dist/svelte-trigger-action.cjs.js"
     },
     "./package.json": "./package.json"
   },
+  "sideEffects": false,
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "1.0.0-next.19",
     "svelte": "3.42.3",

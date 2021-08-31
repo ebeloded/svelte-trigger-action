@@ -2,15 +2,15 @@ lockfileVersion: 5.3
 
 specifiers:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.19
-  svelte: 3.42.3
+  svelte: 3.42.4
   svelte-preprocess: 4.8.0
   typescript: 4.4.2
   vite: 2.5.1
 
 devDependencies:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.19_svelte@3.42.3+vite@2.5.1
-  svelte: 3.42.3
-  svelte-preprocess: 4.8.0_svelte@3.42.3+typescript@4.4.2
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.19_svelte@3.42.4+vite@2.5.1
+  svelte: 3.42.4
+  svelte-preprocess: 4.8.0_svelte@3.42.4+typescript@4.4.2
   typescript: 4.4.2
   vite: 2.5.1
 
@@ -24,7 +24,7 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.19_svelte@3.42.3+vite@2.5.1:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.19_svelte@3.42.4+vite@2.5.1:
     resolution: {integrity: sha512-q9hHkMzodScwDq64pNaWhekpj97vWg3wO9T0rqd8bC2EsrBQs2uD1qMJvDqlNd63AbO2uSJMGo+TQ0Xt2xgyYg==}
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
     peerDependencies:
@@ -40,8 +40,8 @@ packages:
       kleur: 4.1.4
       magic-string: 0.25.7
       require-relative: 0.8.7
-      svelte: 3.42.3
-      svelte-hmr: 0.14.7_svelte@3.42.3
+      svelte: 3.42.4
+      svelte-hmr: 0.14.7_svelte@3.42.4
       vite: 2.5.1
     transitivePeerDependencies:
       - supports-color
@@ -195,15 +195,15 @@ packages:
       min-indent: 1.0.1
     dev: true
 
-  /svelte-hmr/0.14.7_svelte@3.42.3:
+  /svelte-hmr/0.14.7_svelte@3.42.4:
     resolution: {integrity: sha512-pDrzgcWSoMaK6AJkBWkmgIsecW0GChxYZSZieIYfCP0v2oPyx2CYU/zm7TBIcjLVUPP714WxmViE9Thht4etog==}
     peerDependencies:
       svelte: '>=3.19.0'
     dependencies:
-      svelte: 3.42.3
+      svelte: 3.42.4
     dev: true
 
-  /svelte-preprocess/4.8.0_svelte@3.42.3+typescript@4.4.2:
+  /svelte-preprocess/4.8.0_svelte@3.42.4+typescript@4.4.2:
     resolution: {integrity: sha512-i9Z17cwGlp+kuSSv3kJWdAdAP2L26A5yMzHHdDj8YL+86sN64Yz5/gfjQp3Xb6fiaToo4sB+wTpid/23Gz0yvw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -248,12 +248,12 @@ packages:
       '@types/sass': 1.16.1
       detect-indent: 6.1.0
       strip-indent: 3.0.0
-      svelte: 3.42.3
+      svelte: 3.42.4
       typescript: 4.4.2
     dev: true
 
-  /svelte/3.42.3:
-    resolution: {integrity: sha512-pbdtdNZEx2GBqSM6XEgPoHbwtvWBwFLt/1bRmzsyXZO+i424wFnPe7O5B3GOJDPFSxPRztumAW3mL5LPzecWUg==}
+  /svelte/3.42.4:
+    resolution: {integrity: sha512-DqC0AmDdBrrbIA+Kzl3yhBb6qCn4vZOAfxye2pTnIpinLegyagC5sLI8Pe9GPlXu9VpHBXIwpDDedpMfu++epA==}
     engines: {node: '>= 8'}
     dev: true
 

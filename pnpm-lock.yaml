@@ -4,14 +4,14 @@ specifiers:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.19
   svelte: 3.42.4
   svelte-preprocess: 4.8.0
-  typescript: 4.4.2
+  typescript: 4.4.3
   vite: 2.5.1
 
 devDependencies:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.19_svelte@3.42.4+vite@2.5.1
   svelte: 3.42.4
-  svelte-preprocess: 4.8.0_svelte@3.42.4+typescript@4.4.2
-  typescript: 4.4.2
+  svelte-preprocess: 4.8.0_svelte@3.42.4+typescript@4.4.3
+  typescript: 4.4.3
   vite: 2.5.1
 
 packages:
@@ -203,7 +203,7 @@ packages:
       svelte: 3.42.4
     dev: true
 
-  /svelte-preprocess/4.8.0_svelte@3.42.4+typescript@4.4.2:
+  /svelte-preprocess/4.8.0_svelte@3.42.4+typescript@4.4.3:
     resolution: {integrity: sha512-i9Z17cwGlp+kuSSv3kJWdAdAP2L26A5yMzHHdDj8YL+86sN64Yz5/gfjQp3Xb6fiaToo4sB+wTpid/23Gz0yvw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -249,7 +249,7 @@ packages:
       detect-indent: 6.1.0
       strip-indent: 3.0.0
       svelte: 3.42.4
-      typescript: 4.4.2
+      typescript: 4.4.3
     dev: true
 
   /svelte/3.42.4:
@@ -257,8 +257,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /typescript/4.4.2:
-    resolution: {integrity: sha512-gzP+t5W4hdy4c+68bfcv0t400HVJMMd2+H9B7gae1nQlBzCqvrXX+6GL/b3GAgyTH966pzrZ70/fRjwAtZksSQ==}
+  /typescript/4.4.3:
+    resolution: {integrity: sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true

@@ -30,7 +30,7 @@
     "@sveltejs/vite-plugin-svelte": "1.0.0-next.19",
     "svelte": "3.42.4",
     "svelte-preprocess": "4.8.0",
-    "typescript": "4.4.2",
+    "typescript": "4.4.3",
     "vite": "2.5.1"
   }
 }

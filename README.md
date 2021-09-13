@@ -34,6 +34,8 @@ triggerAnimation()
 2. As a parameter to action:
 
 ```svelte
+<scripts>
+
 import { createAnimationTriggerAction } from 'svelte-trigger-action'
 
 // create trigger and action

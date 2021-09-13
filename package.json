@@ -27,10 +27,10 @@
   },
   "sideEffects": false,
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "1.0.0-next.19",
-    "svelte": "3.42.4",
-    "svelte-preprocess": "4.8.0",
-    "typescript": "4.4.2",
-    "vite": "2.5.1"
+    "@sveltejs/vite-plugin-svelte": "1.0.0-next.23",
+    "svelte": "3.42.5",
+    "svelte-preprocess": "4.9.4",
+    "typescript": "4.4.3",
+    "vite": "2.5.6"
   }
 }

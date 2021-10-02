@@ -3,14 +3,14 @@ lockfileVersion: 5.3
 specifiers:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.23
   svelte: 3.42.5
-  svelte-preprocess: 4.9.4
+  svelte-preprocess: 4.9.8
   typescript: 4.4.3
   vite: 2.5.6
 
 devDependencies:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.23_svelte@3.42.5+vite@2.5.6
   svelte: 3.42.5
-  svelte-preprocess: 4.9.4_svelte@3.42.5+typescript@4.4.3
+  svelte-preprocess: 4.9.8_svelte@3.42.5+typescript@4.4.3
   typescript: 4.4.3
   vite: 2.5.6
 
@@ -123,6 +123,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -310,8 +311,8 @@ packages:
       svelte: 3.42.5
     dev: true
 
-  /svelte-preprocess/4.9.4_svelte@3.42.5+typescript@4.4.3:
-    resolution: {integrity: sha512-Z0mUQBGtE+ZZSv/HerRSHe7ukJokxjiPeHe7iPOIXseEoRw51H3K/Vh6OMIMstetzZ11vWO9rCsXSD/uUUArmA==}
+  /svelte-preprocess/4.9.8_svelte@3.42.5+typescript@4.4.3:
+    resolution: {integrity: sha512-EQS/oRZzMtYdAprppZxY3HcysKh11w54MgA63ybtL+TAZ4hVqYOnhw41JVJjWN9dhPnNjjLzvbZ2tMhTsla1Og==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
     peerDependencies:

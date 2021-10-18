@@ -1,14 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.23
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.30
   svelte: 3.42.5
   svelte-preprocess: 4.9.4
   typescript: 4.4.3
   vite: 2.5.6
 
 devDependencies:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.23_svelte@3.42.5+vite@2.5.6
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.30_svelte@3.42.5+vite@2.5.6
   svelte: 3.42.5
   svelte-preprocess: 4.9.4_svelte@3.42.5+typescript@4.4.3
   typescript: 4.4.3
@@ -24,13 +24,13 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.23_svelte@3.42.5+vite@2.5.6:
-    resolution: {integrity: sha512-zmguJ9OYYsvZUhzPA3ZeYana2qx/ORadI0LVjzDIuXEXcR7AKj9qJgGCWe5Wi2Z/xg9PsKMHTTCHgiiplphIYg==}
-    engines: {node: ^12.20 || ^14.13.1 || >= 16}
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.30_svelte@3.42.5+vite@2.5.6:
+    resolution: {integrity: sha512-YQqdMxjL1VgSFk4/+IY3yLwuRRapPafPiZTiaGEq1psbJYSNYUWx9F1zMm32GMsnogg3zn99mGJOqe3ld3HZSg==}
+    engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
       diff-match-patch: ^1.0.5
-      svelte: ^3.34.0
-      vite: ^2.5.3
+      svelte: ^3.44.0
+      vite: ^2.6.0
     peerDependenciesMeta:
       diff-match-patch:
         optional: true
@@ -123,6 +123,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 

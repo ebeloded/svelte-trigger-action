@@ -1,6 +1,6 @@
 {
   "name": "svelte-trigger-action",
-  "version": "1.9.5",
+  "version": "1.9.6",
   "repository": {
     "type": "git",
     "url": "https://github.com/ebeloded/svelte-trigger-action"

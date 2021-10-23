@@ -1,13 +1,24 @@
 <script>
-import { createAnimationTriggerAction } from './lib'
+import { onMount } from 'svelte';
+
+import { createAnimationTriggerAction, createTriggerAction } from './lib'
 
 const { triggerAnimation, animationAction } = createAnimationTriggerAction()
+const { trigger, triggerAction } = createTriggerAction((node, param,triggerParam)=>{
+  console.log('action callback',node,param,triggerParam)
+})
+
+onMount(()=>{
+  trigger()
+})
 
 </script>
 
 <button use:animationAction on:click={()=>triggerAnimation('shake')}>
 	shake me
 </button>
+
+<div use:triggerAction></div>
 
 <style>
 

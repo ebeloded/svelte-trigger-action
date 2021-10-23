@@ -7,7 +7,6 @@ module.exports = defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/lib/index.ts'),
-      formats: ['cjs', 'es'],
       name: 'svelte-trigger-action',
     },
   },

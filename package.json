@@ -9,6 +9,7 @@
   "files": [
     "dist"
   ],
+  "type": "module",
   "main": "./dist/svelte-trigger-action.umd.js",
   "module": "./dist/svelte-trigger-action.es.js",
   "types": "./dist/types/index.d.ts",

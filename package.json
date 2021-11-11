@@ -9,19 +9,19 @@
   "files": [
     "dist"
   ],
-  "type": "module",
-  "main": "./dist/svelte-trigger-action.umd.js",
-  "module": "./dist/svelte-trigger-action.es.js",
-  "types": "./dist/types/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc",
     "serve": "vite preview"
   },
+  "type": "module",
+  "main": "./dist/lib.cjs",
+  "module": "./dist/lib.js",
+  "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/svelte-trigger-action.es.js",
-      "require": "./dist/svelte-trigger-action.umd.js"
+      "import": "./dist/lib.js",
+      "require": "./dist/lib.cjs"
     },
     "./package.json": "./package.json"
   },

@@ -4,7 +4,7 @@ import { onMount } from 'svelte';
 import { createAnimationTriggerAction, createTriggerAction } from './lib'
 
 const { triggerAnimation, animationAction } = createAnimationTriggerAction()
-const { trigger, triggerAction } = createTriggerAction((node, param,triggerParam)=>{
+const { trigger, triggerAction } = createTriggerAction(async (node, param,triggerParam)=>{
   console.log('action callback',node,param,triggerParam)
 })
 
@@ -12,9 +12,18 @@ onMount(()=>{
   trigger()
 })
 
+
+async function animate(){
+  console.log('start shaking')
+  await triggerAnimation('shake')
+  console.log('stop shaking')
+}
+
+
+
 </script>
 
-<button use:animationAction on:click={()=>triggerAnimation('shake')}>
+<button use:animationAction on:click={animate}>
 	shake me
 </button>
 

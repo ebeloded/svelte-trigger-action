@@ -1,6 +1,6 @@
 {
   "name": "svelte-trigger-action",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/ebeloded/svelte-trigger-action"
@@ -15,14 +15,13 @@
     "serve": "vite preview"
   },
   "type": "module",
-  "main": "./dist/lib.cjs",
-  "module": "./dist/lib.js",
-  "types": "./dist/types/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
-    "types": "dist/runtime.d.ts",
     ".": {
-      "import": "./dist/lib.js",
-      "require": "./dist/lib.cjs"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     },
     "./package.json": "./package.json"
   },

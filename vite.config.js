@@ -12,8 +12,8 @@ export default defineConfig({
       name,
       fileName: (format) =>
         ({
-          cjs: 'lib.cjs',
-          es: 'lib.js',
+          cjs: 'index.cjs',
+          es: 'index.js',
         }[format]),
     },
   },

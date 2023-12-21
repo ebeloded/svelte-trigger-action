@@ -16,6 +16,6 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run build
-      - run: npm run publish
+      - run: npm publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

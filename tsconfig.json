@@ -14,7 +14,7 @@
     "noImplicitReturns": true,
     "emitDeclarationOnly": true,
     "skipLibCheck": true,
-    "outDir": ".dist/"
+    "outDir": "./dist"
   },
   "include": ["./src/lib"]
 }

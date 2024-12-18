@@ -1,6 +1,6 @@
 {
 	"name": "svelte-trigger-action",
-	"version": "1.17.0",
+	"version": "1.16.0",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/ebeloded/svelte-trigger-action.git"
@@ -14,8 +14,8 @@
 		"prepublishOnly": "npm run package",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --check .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"lint": "prettier --check ."
 	},
 	"exports": {
 		".": {
@@ -28,22 +28,21 @@
 		"!dist/**/*.test.*",
 		"!dist/**/*.spec.*"
 	],
-	"peerDependencies": {
-		"svelte": "^4.0.0"
-	},
+  "peerDependencies": {
+    "svelte": "^4.0.0 || ^5.0.0"
+  },
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.1",
-		"@sveltejs/kit": "^2.0.5",
-		"@sveltejs/package": "^2.2.4",
-		"@sveltejs/vite-plugin-svelte": "^3.0.1",
-		"prettier": "^3.1.1",
-		"prettier-plugin-svelte": "^3.1.2",
-		"publint": "^0.2.6",
-		"svelte": "^4.2.8",
-		"svelte-check": "^3.6.2",
-		"tslib": "^2.6.2",
-		"typescript": "^5.3.3",
-		"vite": "^5.0.10"
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.9.0",
+		"@sveltejs/package": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"prettier": "^3.3.2",
+		"prettier-plugin-svelte": "^3.2.6",
+		"publint": "^0.2.0",
+		"svelte": "^5.0.0",
+		"svelte-check": "^4.0.0",
+		"typescript": "^5.0.0",
+		"vite": "^6.0.0"
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
